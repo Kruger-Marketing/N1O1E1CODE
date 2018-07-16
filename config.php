@@ -37,6 +37,7 @@ function hFavicon(){
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="media/img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+    <meta name="google-site-verification" content="5lDaikxJ2zLCAoUfQP0--AIA0S45Gusz0ggAGQTKdjk" />
     <?php
 }
 function hBootstrap(){
