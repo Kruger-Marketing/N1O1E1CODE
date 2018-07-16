@@ -1,0 +1,24 @@
+/*INTROS CARTA*/
+#sugerencias-del-chef{background-image: url(../../media/img/menu/sugerencias-del-chef/sugerencias-del-chef.png) , url(../../media/img/menu/sugerencias-del-chef/sugerencias-del-chef.jpg);}
+#ensaladas{background-image: url(../../media/img/menu/ensaladas/ensaladas.png) , url(../../media/img/menu/ensaladas/ensaladas.jpg);}
+#entradas-frias{background-image: url(../../media/img/menu/entradas-frias/entradas-frias.png) , url(../../media/img/menu/entradas-frias/entradas-frias.jpg);}
+#sopas{background-image: url(../../media/img/menu/sopas/sopas.png) , url(../../media/img/menu/sopas/sopas.jpg);}
+#entradas-calientes{background-image: url(../../media/img/menu/entradas-calientes/entradas-calientes.png) , url(../../media/img/menu/entradas-calientes/entradas-calientes.jpg);}
+#rollos-tradicionales{background-image: url(../../media/img/menu/rollos-tradicionales/rollos-tradicionales.png) , url(../../media/img/menu/rollos-tradicionales/rollos-tradicionales.jpg);}
+#rollos-especiales{background-image: url(../../media/img/menu/rollos-especiales/rollos-especiales.png) , url(../../media/img/menu/rollos-especiales/rollos-especiales.jpg);}
+#conos{background-image: url(../../media/img/menu/conos/conos.png) , url(../../media/img/menu/conos/conos.jpg);}
+#sushi-sashimi{background-image: url(../../media/img/menu/sushi-sashimi/sushi-sashimi.png) , url(../../media/img/menu/sushi-sashimi/sushi-sashimi.jpg);}
+#sushi-especial{background-image: url(../../media/img/menu/sushi-especial/sushi-especial.png) , url(../../media/img/menu/sushi-especial/sushi-especial.jpg);}
+#combinaciones-especiales{background-image: url(../../media/img/menu/combinaciones-especiales/combinaciones-especiales.png) , url(../../media/img/menu/combinaciones-especiales/combinaciones-especiales.jpg);}
+#bonsai-sushi-sashimi{background-image: url(../../media/img/menu/bonsai-sushi-sashimi/bonsai-sushi-sashimi.png) , url(../../media/img/menu/bonsai-sushi-sashimi/bonsai-sushi-sashimi.jpg);}
+#carnes{background-image: url(../../media/img/menu/carnes/carnes.png) , url(../../img/menu/carnes/carnes.jpg);}
+#teriyaki{background-image: url(../../media/img/menu/teriyaki/teriyaki.png) , url(../../media/img/menu/teriyaki/teriyaki.jpg);}
+#tepanyaki{background-image: url(../../media/img/menu/tepanyaki/tepanyaki.png) , url(../../media/img/menu/tepanyaki/tepanyaki.jpg);}
+#mariscos{background-image: url(../../media/img/menu/mariscos/mariscos.png) , url(../../media/img/menu/mariscos/mariscos.jpg);}
+#acompanantes{background-image: url(../../media/img/menu/acompanantes/acompanantes.png) , url(../../media/img/menu/acompanantes/acompanantes.jpg);}
+#postres{background-image: url(../../media/img/menu/postres/postres.png) , url(../../media/img/menu/postres/postres.jpg);}
+/*CARTA*/
+/*SOPAS*/
+.Masakari{background-image: url(../../media/img/menu/sopas/masakari/masakari.jpg) !important;	background-size: cover;	height: 100%;}
+/*ENSALADAS*/
+.Oriental{background-image: url(../../media/img/menu/ensaladas/oriental/oriental-1.jpg);	background-size: cover;	height: 100%;}

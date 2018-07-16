@@ -1,0 +1,263 @@
+/*MENU*/
+.menu{z-index: 2; font-family:'DIN Condensed Bold' !important;font-size:1.2rem; background-color:rgba(0,0,0,0.90); min-height: 100px;background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGElEQVQYlWNgYGCQwoKxgqGgcJA5h3yFAAs8BRWVSwooAAAAAElFTkSuQmCC");}
+.menu i{color:#DDDDDD; transition: all 0.3s;}
+.menu i:hover{color:#0063AF; transform: scale(1.5)}
+.menu a.delivery{background-image: url(../../media/img/delivery.png); background-repeat: no-repeat; background-size: contain; width: 100%; height: 50px; background-position:center center;}
+.menu a{background: none; height: 100%;}
+.menu .logo{background-image: url(../../media/img/noe-sushi-logo.png);background-position: 37% center;background-size: contain;background-repeat: no-repeat;height: 40px;transition: all 0.5s;}
+.menu .logo:hover{transform: scale(1.2);}
+
+/*MOUSE SCROLL*/
+.scroll-downs {position: absolute;right: 0;left: 0;bottom: 20px;margin: auto;z-index: 1;width :19px;height:40px;}
+.mousey {width: 1px;padding: 10px 15px;height: 35px;border: 2px solid #fff;border-radius: 25px;opacity: 0.75;box-sizing: content-box;}
+.scroller {width: 3px;height: 10px;border-radius: 25%;background-color: #fff;animation-name: scroll;animation-duration: 2.2s;animation-timing-function: cubic-bezier(.15,.41,.69,.94);animation-iteration-count: infinite;}
+@keyframes scroll {0% { opacity: 0; }10% { transform: translateY(0); opacity: 1; }100% { transform: translateY(15px); opacity: 0;}}
+/*INTRO*/
+.intro{height: 100vh; }
+.intro .content{background-size:80vw; background-image: url(../../media/img/intro/noe-sushi-explora-tus-sentidos.png);background-position: center center;background-repeat: no-repeat;height: 100vh;}
+/*SCROLLER*/
+.section {
+	background-image: url(../../media/img/intro/vive-la-experiencia.png) !important;
+	background-position: center center !important;
+	background-repeat: no-repeat !important;
+	background-size: 30% !important;
+	padding-top: 100px; 
+	border-top:1px solid #0063AF;
+	border-bottom: 1px solid #0063AF;
+	height: 50%;
+	background-color: #293744;
+	color: #899eb5;}
+.scene {height: 100vh;width: 100%;background: #000;}
+.viewer {
+	height: calc(100vh - 102px);margin-left: auto;margin-right: auto;	max-width: 1383px;width: 100%;
+	/* background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/doodle-sprite.png);*/
+	background-image:url(../../media/img/animacion-web-noe.png);
+	background-repeat: no-repeat;background-position: 0 50%;
+}
+.viewer.frame1 {background-position: -2767px center;}
+.viewer.frame2 {background-position: -4149px center;}
+.viewer.frame3 {background-position: -5532px center;}
+.viewer.frame4 {background-position: -6915px center;}
+.viewer.frame5 {background-position: -8298px center;}
+.viewer.frame6 {background-position: -9681px center;}
+.viewer.frame7 {background-position: -11064px center;}
+.viewer.frame8 {background-position: -12447px center;}
+.viewer.frame9 {background-position: -13830px center;}
+@-webkit-keyframes drink-coffee {to {background-position: -1800px 50%;}}
+@keyframes drink-coffee {to {background-position: -1800px 50%;}}
+/*SUGERENCIA DEL MES*/
+.sugerencia { height: calc(100vh); border-bottom: 1px solid #0063AF;}
+.sugerencia .left {background-color: rgba(0,0,0,1.00);background-image: url(../../media/img/sugerencia-del-mes.png);background-position: center center;background-repeat: no-repeat;background-size: 40%;}
+.sugerencia .right {background-color: #0063AF;padding:0;}
+.sugerencia .carousel-inner{display: flex;height: 100%;}
+.sugerencia .right .carousel-caption {background-color: rgba(0, 98, 174, 0.7);right: 0; bottom: 0; left: 0;padding: 20px 20px 50px 20px;}
+/*LOCALES*/
+.locales{min-height: 100vh; height: auto; font-family:'DIN Condensed Bold' !important; background-color: #000; border-bottom: 1px solid #0063AF;}
+.locales .left{min-height: 80vh;}
+.locales .left .carousel{position: absolute;height: 100%; width: 100%}
+.locales .left .carousel-inner{	height: 100%;}
+.locales .left .carousel-indicators{bottom: 5vh;}
+.locales .left .carousel-item{padding:0;transition: transform 2s ease, opacity .5s ease-out;}
+.locales .left .carousel-item div{background-color: rgba(0,99,175,0.5); background-color: rgba(0,0,0,0.5); bottom: 0px; position: absolute; padding: 5vh 10vw 10vh 10vw; width: 100%;}
+#localesQuito:checked ~ #enQuito,
+#localesGuayaquil:checked ~ #enGuayaquil,
+#localesCuenca:checked ~ #enCuenca {display: flex;}
+.none{display: none;}
+.locales input {display: none;}
+.locales label {font-size: 6vw; display: inline-block;z-index: 1; padding: 10px; color:#ccc; background-color: #0062AE; width: 33.33%; text-align: center;}
+.locales label:hover {color: #fff;cursor: pointer;}
+.locales input:checked + label {border-bottom: 5px solid #fff; color:#FFF;}
+.locales .right {background-color: #000;}
+.locales .right img{width: 50%;}
+.locales .right img:last-child{width: 40%;}
+/*PIE*/
+.pie{height: 15vh; border-bottom: 1px solid #0063AF; background-color: #000; z-index: 2; position: relative;}
+.pie p.s3 {font-size: 3vw;}
+.pie .left {background-image: url(../../media/img/noe-sushi-logo.png);background-position: center center;background-repeat: no-repeat;background-size: 20%;}
+.pie .right {}
+.pie .right .sushicorp {background-image:url(../../media/img/logo_sushicorp.png);background-repeat: no-repeat;	background-position: center center;	background-size: 50%;	height: 100%;	width: 200px;}
+
+
+/*CARTA*/
+.carta{
+	min-height: 100vh;
+	background-color:#000; 
+	background-image: url(../../media/img/menu/menu.png) ,url(../../media/img/menu/menu.jpg); 
+	background-repeat: no-repeat, no-repeat; 
+	background-size: 20%, cover;
+	background-position: center center, left center;
+	}
+	/*MENU CARTA*/
+	.arrows{ 
+		background-color: #0063AF;
+		margin-top: 100px;
+		min-height: calc(100vh - 100px);
+		width: 60px;
+		right: 0px;
+		}
+	.categoriasMenu{
+		font-family:'DIN Condensed Bold' !important;font-size:1.2rem;
+		background-color: rgba(0,0,0,0.70);
+		min-height: calc(100vh - 100px);
+		right: 60px;
+		display: flex;
+		}
+	 .categoriasMenu ul{
+			list-style-type: none;
+			width: 100%;
+		}
+	 .categoriasMenu li{
+		padding: 0 50px;
+		}
+	 .categoriasMenu li:hover{
+			background-color: #0063AF;
+		cursor: pointer;
+		}
+	
+	
+	.carta  .left{
+		margin-top: 100px;
+		background-color: rgba(0,0,0,0.50);
+		min-height: 100vh;
+		font-family:'Open Sans Condensed', sans-serif !important;font-size:1.2rem;
+		
+		}
+.carta  .left div{
+	border-bottom: 1px solid #0063AF;
+	padding: 10px 0px;transition: all 0.5s;
+}
+.carta  .left div:hover{
+	background-color: rgba(0, 98, 174, 0.5);
+}
+.carta  .left div a:hover{
+	text-decoration: none;
+	color: #FFF !important;
+	
+
+}
+
+	/*MENUS DE LA CARTA*/
+	.divCategoria{
+		background-color: #000;
+		min-height: calc(100vh - 100px);
+		background-position: 0vw center, center center;
+		background-size: 0px, cover;	
+		background-attachment: fixed, fixed;
+		background-repeat: no-repeat, no-repeat;
+		display: flex;
+		
+		
+			}
+/*PLATO*/
+.plato{
+	min-height: 100vh;
+	background-color:#000; 
+	
+	background-position: right 100px top 45vh, center center;
+	background-size: 20vw, cover;	
+	background-attachment: fixed, fixed;
+	background-repeat: no-repeat, no-repeat;
+	display: flex;
+	}
+.plato div:first-child{
+	margin-top: 100px;
+	background-color: rgba(0,0,0,0.70);
+}
+
+
+/*NOSOTROS*/
+.nosotros{height: 100vh; font-family:'DIN Condensed Bold' !important;}
+.nosotros .content{height: 100vh;}
+
+.artenoe{height: 80vh; font-family:'DIN Condensed Bold' !important;}
+.artenoe .left {background-color: rgba(0,0,0,1.00);background-image: url(../../media/img/el-arte-de-noe.png);background-position: center center;background-repeat: no-repeat;background-size: 60%;}
+/*VIDEOS*/
+.videos {background-color: #000; font-family:'DIN Condensed Bold' !important;font-size:1.2rem; min-height: 70vh;}
+.videos .left {background-color: rgba(0,0,0,1.00);background-image: url(../../media/img/el-arte-de-noe.png);background-position: center center;background-repeat: no-repeat;}
+.videos .right {padding:0; justify-content:space-around; align-items: center; background-color: #D0D0D0;}
+.videos .right iframe{border-radius: 0px !important;margin: 0px !important;}
+
+.slider-youtube iframe {
+min-width: 900px;
+height: 506px;
+}
+
+.slider-youtube .youtube {
+opacity: 1;
+transition: opacity 1s;
+}
+
+.slider-youtube .youtube:not(.slick-current) {
+opacity: 0.4;
+transition: opacity 1s;
+}
+
+img.slick-slide {
+max-width: 100%;
+}
+
+.video-background {
+background: #000;
+z-index: -99;
+max-height: 506px;
+}
+
+.video-foreground,
+.video-background iframe {
+width: 100%;
+height: 506px;
+pointer-events: none;
+}
+
+.slick-button {
+position: relative;
+bottom: 60px;
+text-align: center;
+z-index: 9999;
+}
+
+.slick-button a {
+color: white;
+background-color: black;
+}
+
+
+
+/*social*/
+.social {background-color: #000; font-family:'DIN Condensed Bold' !important;font-size:1.2rem; min-height: 70vh;}
+.social .left {background-color: rgba(0,0,0,1.00);background-image: url(../../media/img/noe-sushi-lovers.png);background-position: center center;background-repeat: no-repeat;}
+.social .right {padding:0; justify-content:space-around; align-items: center; background-color: #D0D0D0;}
+.social .right iframe{border-radius: 0px !important;margin: 0px !important;}
+/*contador*/
+.contador {background-color: #333; font-family:'DIN Condensed Bold' !important;font-size:1.2rem; min-height: 30vh; border-bottom: 10px solid #0063AF;}
+.count{font-size: 3vw; }
+
+
+
+.module_comun_top{min-height: 90vh; background-color:#CCC;align-items: flex-start; padding-top: 100px;}
+	.module_comun_top p.icon{text-align: center;}
+	.module_comun_top p.activo{text-align: center;}
+	.module_comun_top a:hover p.icon, .module_comun_top a:hover p.activo{color: #fff;}
+	.module_comun_top p.h6 {font-family: 'Raleway', sans-serif;letter-spacing: 0.5vw;}
+
+@media (min-width: 768px) { 
+	.intro .content{background-size:20vw;}
+.menu .logo{background-size: 70%; height: 100%;background-position: center center;}
+.menu a.delivery{background-size: 70%; height: 100%;}
+.locales label {margin: 110px 20px 0px 20px;}
+.pie p.s3 {font-size: 1rem;}
+.carta .categoriasMenu{background-color: rgba(0,0,0,0.99);}
+.divCategoria{
+		background-color: #000;
+		min-height: calc(100vh - 100px);
+		background-position: 45vw 40vh, center center;
+		background-size: 30%, cover;	
+		background-attachment: fixed, fixed;
+		background-repeat: no-repeat, no-repeat;
+		display: flex;
+		
+		
+			}
+.locales label {font-size: 3rem; width: auto; display: inline-block;z-index: 1; margin: 100px 10px 0px 10px; padding: 0; color:#ccc; background-color:rgba(0,0,0,0.00);}
+.locales input:checked + label {border-bottom: 1px solid #fff; color:#FFF;}
+}
