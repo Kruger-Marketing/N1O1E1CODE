@@ -8,7 +8,7 @@ function intro(){
 		for ($x = 1; $x <= 18; $x++) {
 		?>
 		<div id="<?php echo $GLOBALS['cartaClase'][$x.'-link']; ?>" class="divCategoria col-12 justify-content-start align-items-center animated fadeIn">
-			<div class="col-11 col-sm-4 left p-4">
+			<div class="col-11 col-lg-4 left p-4">
 				<?php
 				/*SUGERENCIAS DEL CHEF*/
 				if ($GLOBALS['cartaClase'][$x] =="Sugerencias del Chef"){
