@@ -12,7 +12,7 @@ function intro(){
 				<?php
 				/*SUGERENCIAS DEL CHEF*/
 				if ($GLOBALS['cartaClase'][$x] =="Sugerencias del Chef"){
-					for ($a = 1; $a <= 8; $a++) {
+					for ($a = 1; $a <= 9; $a++) {
 						if ($GLOBALS['carta'.$a]['nombre']){
 							?>
 							<div class="p-3" id="<?php echo $GLOBALS['carta'.$a]['nombre']; ?>" data-toggle="tooltip" data-placement="right" title="<?php echo $GLOBALS['toolTipCarta']; ?>">
