@@ -3,7 +3,7 @@ function menu(){
 	?>
 	<div class="container-fluid p-0">
 		<div class="menu w-100 position-fixed d-flex flex-wrap">
-			<div class="d-none d-md-flex col-md-2 flex-row flex-wrap justify-content-center align-items-center my-2">
+			<div class="d-none d-lg-flex col-lg-2 flex-row flex-wrap justify-content-center align-items-center my-2">
 				<a class="d-flex align-items-center" target="new" href="<?php echo $GLOBALS['social']['facebook_link']; ?>"><i class="fab fa-facebook mx-2 h5"-square></i></a>
 				<a class="d-flex align-items-center" target="new" href="<?php echo $GLOBALS['social']['twitter_link']; ?>"><i class="fab fa-twitter-square mx-2 h5"></i></a>
 				<a class="d-flex align-items-center" target="new" href="<?php echo $GLOBALS['social']['instagram_link']; ?>"><i class="fab fa-instagram mx-2 h5"></i></a>
