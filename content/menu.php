@@ -30,7 +30,7 @@ function menu(){
 				
 				</div>
 			</nav>
-			<div class="d-none d-md-flex col-2 flex-row justify-content-center align-items-center">
+			<div class="d-none d-lg-flex col-2 flex-row justify-content-center align-items-center">
 				<a href="tel:1800663663" class="delivery"></a>
 			</div>
 		</div>
