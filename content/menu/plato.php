@@ -42,7 +42,7 @@ function plato(){
 				<?php
 				for ($imagenes = 1; $imagenes <= $total_imagenes; $imagenes++) {
 					?>
-					<div class="col-3 pl-4 mt-4"><img class="w-100" src="<?php echo $GLOBALS['carta'.$a]['img'].$imagenes.'.jpg'; ?>" /></div>
+					<div class="col-3 pl-4 mt-4"><img alt="<?php echo $GLOBALS['carta'.$a]['nombre']; ?>" class="w-100" src="<?php echo $GLOBALS['carta'.$a]['img'].$imagenes.'.jpg'; ?>" /></div>
 					<?php
 					}
 				?>
