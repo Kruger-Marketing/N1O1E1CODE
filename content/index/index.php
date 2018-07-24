@@ -222,9 +222,9 @@ function locales(){
 			<!--END LEFT-->
 			<!--RIGHT-->
 			<div class="col-12 col-sm-4 right d-flex flex-column justify-content-center align-items-center p-0">
-				<img class="mt-5 m-sm-0" src="media/img/locales.png"/>
+				<img alt="locales de noe sushi bar " class="mt-5 m-sm-0" src="media/img/locales.png"/>
 				<h5 class="text-light mt-5 px-3 text-center">solicita nuestro servicio de delivery <br>llevaremos tus sabores favoritos hacia tí</h5>
-				<img class="mt-5" src="media/img/delivery.png"/>
+				<img alt="sushi a domicilio" class="mt-5" src="media/img/delivery.png"/>
 				<p class="text-light px-3 text-center">Disponible en Quito y Guayaquil</p>
 				<p class="text-light px-3 mt-4 text-center h5">En Cuenca llama al 2889308</p>
 			</div>
