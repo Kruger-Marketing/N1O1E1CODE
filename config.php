@@ -8,7 +8,7 @@ function hCabeza(){
 	?>
 	<meta charset="utf-8">
 	<link rel="alternate" hreflang="es-EC" href="http://noesushibar.com/es/" />
-    <title><?= $nameCompany; ?></title>
+    <title><?= $nameCompany; ?>  - Creamos fusiones del mejor sushi solo para ti </title>
     <meta name="description" content="<?= $descripCompany; ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="<?= $author;?>">

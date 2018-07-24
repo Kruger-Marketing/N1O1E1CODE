@@ -95,10 +95,10 @@ function locales(){
 						if ($x = 1) {
 							?>
 							<div class="carousel-item active <?php echo $GLOBALS['local'.$x]['codigo']; ?>">
-								<div>
-									<h1 class="mb-2"><?php echo $GLOBALS['local'.$x]['nombre']; ?></h1>
-									<h3 class="mb-2"><?php echo $GLOBALS['local'.$x]['direccion']; ?></h3>
-									<p class="mb-4"><i class="far fa-clock"></i> <?php echo $GLOBALS['local'.$x]['horario']; ?></p>
+								<div itemscope itemtype="http://schema.org/Restaurant">
+									<h1 class="mb-2" itemprop="name"><?php echo $GLOBALS['local'.$x]['nombre']; ?></h1>
+									<h3 class="mb-2" itemprop="streetAddress"><?php echo $GLOBALS['local'.$x]['direccion']; ?></h3>
+									<p class="mb-4" itemprop="openingHours"><i class="far fa-clock"></i> <?php echo $GLOBALS['local'.$x]['horario']; ?></p>
 									<a target="new" href="<?php echo $GLOBALS['local'.$x]['gps_link']; ?>" class="h4 mr-4 btn px-5 py-3 btn-primary"><i class="fas fa-map-marker-alt"></i> Cómo llegar</a>
 									<a target="new" href="<?php echo $GLOBALS['local'.$x]['reservar_link']; ?>" class="h4 btn px-5 py-3 btn-primary"><i class="fas fa-calendar-check"></i> Reservar</a>
 								</div>
@@ -108,10 +108,10 @@ function locales(){
 						for ($x = 2; $x <= 7; $x++) {
 							?>
 							<div class="carousel-item <?php echo $GLOBALS['local'.$x]['codigo']; ?>">
-								<div>
-									<h1 class="mb-2"><?php echo $GLOBALS['local'.$x]['nombre']; ?></h1>
-									<h3 class="mb-2"><?php echo $GLOBALS['local'.$x]['direccion']; ?></h3>
-									<p class="mb-4"><i class="far fa-clock"></i> <?php echo $GLOBALS['local'.$x]['horario']; ?></p>
+								<div itemscope itemtype="http://schema.org/Restaurant">
+									<h1 class="mb-2" itemprop="name"><?php echo $GLOBALS['local'.$x]['nombre']; ?></h1>
+									<h3 class="mb-2" itemprop="streetAddress"><?php echo $GLOBALS['local'.$x]['direccion']; ?></h3>
+									<p class="mb-4" itemprop="openingHours"><i class="far fa-clock"></i> <?php echo $GLOBALS['local'.$x]['horario']; ?></p>
 									<a target="new" href="<?php echo $GLOBALS['local'.$x]['gps_link']; ?>" class="h4 mr-4 btn px-5 py-3 btn-primary"><i class="fas fa-map-marker-alt"></i> Cómo llegar</a>
 									<a target="new" href="<?php echo $GLOBALS['local'.$x]['reservar_link']; ?>" class="h4 btn px-5 py-3 btn-primary"><i class="fas fa-calendar-check"></i> Reservar</a>
 								</div>
@@ -146,10 +146,10 @@ function locales(){
 						if ($y = 8) {
 							?>
 							<div class="carousel-item active <?php echo $GLOBALS['local'.$y]['codigo']; ?>">
-								<div>
-									<h1 class="mb-2"><?php echo $GLOBALS['local'.$y]['nombre']; ?></h1>
-									<h3 class="mb-2"><?php echo $GLOBALS['local'.$y]['direccion']; ?></h3>
-									<p class="mb-4"><i class="far fa-clock"></i> <?php echo $GLOBALS['local'.$x]['horario']; ?></p>
+								<div itemscope itemtype="http://schema.org/Restaurant">
+									<h1 class="mb-2" itemprop="name"><?php echo $GLOBALS['local'.$y]['nombre']; ?></h1>
+									<h3 class="mb-2" itemprop="streetAddress"><?php echo $GLOBALS['local'.$y]['direccion']; ?></h3>
+									<p class="mb-4" itemprop="openingHours"><i class="far fa-clock"></i> <?php echo $GLOBALS['local'.$x]['horario']; ?></p>
 									<a target="new" href="<?php echo $GLOBALS['local'.$y]['gps_link']; ?>" class="h4 mr-4 btn px-5 py-3 btn-primary"><i class="fas fa-map-marker-alt"></i> Cómo llegar</a>
 									<a target="new" href="<?php echo $GLOBALS['local'.$y]['reservar_link']; ?>" class="h4 btn px-5 py-3 btn-primary"><i class="fas fa-calendar-check"></i> Reservar</a>
 								</div>
@@ -159,10 +159,10 @@ function locales(){
 						for ($y = 9; $y <= 10; $y++) {
 							?>
 							<div class="carousel-item <?php echo $GLOBALS['local'.$y]['codigo']; ?>">
-								<div>
-									<h1 class="mb-2"><?php echo $GLOBALS['local'.$y]['nombre']; ?></h1>
-									<h3 class="mb-2"><?php echo $GLOBALS['local'.$y]['direccion']; ?></h3>
-									<p class="mb-4"><i class="far fa-clock"></i> <?php echo $GLOBALS['local'.$x]['horario']; ?></p>
+								<div itemscope itemtype="http://schema.org/Restaurant">
+									<h1 class="mb-2" itemprop="name"><?php echo $GLOBALS['local'.$y]['nombre']; ?></h1>
+									<h3 class="mb-2" itemprop="streetAddress"><?php echo $GLOBALS['local'.$y]['direccion']; ?></h3>
+									<p class="mb-4" itemprop="openingHours"><i class="far fa-clock"></i> <?php echo $GLOBALS['local'.$x]['horario']; ?></p>
 									<a target="new" href="<?php echo $GLOBALS['local'.$y]['gps_link']; ?>" class="h4 mr-4 btn px-5 py-3 btn-primary"><i class="fas fa-map-marker-alt"></i> Cómo llegar</a>
 									<a target="new" href="<?php echo $GLOBALS['local'.$y]['reservar_link']; ?>" class="h4 btn px-5 py-3 btn-primary"><i class="fas fa-calendar-check"></i> Reservar</a>
 								</div>
@@ -195,10 +195,10 @@ function locales(){
 						if ($z = 11) {
 							?>
 							<div class="carousel-item active <?php echo $GLOBALS['local'.$z]['codigo']; ?>">
-								<div>
-									<h1 class="mb-2"><?php echo $GLOBALS['local'.$z]['nombre']; ?></h1>
-									<h3 class="mb-2"><?php echo $GLOBALS['local'.$z]['direccion']; ?></h3>
-									<p class="mb-4"><i class="far fa-clock"></i> <?php echo $GLOBALS['local'.$x]['horario']; ?></p>
+								<div itemscope itemtype="http://schema.org/Restaurant">
+									<h1 class="mb-2" itemprop="name"><?php echo $GLOBALS['local'.$z]['nombre']; ?></h1>
+									<h3 class="mb-2" itemprop="streetAddress">><?php echo $GLOBALS['local'.$z]['direccion']; ?></h3>
+									<p class="mb-4" itemprop="openingHours"><i class="far fa-clock"></i> <?php echo $GLOBALS['local'.$x]['horario']; ?></p>
 									<a target="new" href="<?php echo $GLOBALS['local'.$z]['gps_link']; ?>" class="h4 mr-4 btn px-5 py-3 btn-primary"><i class="fas fa-map-marker-alt"></i> Cómo llegar</a>
 									<a target="new" href="<?php echo $GLOBALS['local'.$z]['reservar_link']; ?>" class="h4 btn px-5 py-3 btn-primary"><i class="fas fa-calendar-check"></i> Reservar</a>
 								</div>
@@ -221,12 +221,12 @@ function locales(){
 			</div>
 			<!--END LEFT-->
 			<!--RIGHT-->
-			<div class="col-12 col-sm-4 right d-flex flex-column justify-content-center align-items-center p-0">
+			<div class="col-12 col-sm-4 right d-flex flex-column justify-content-center align-items-center p-0" itemscope itemtype="http://schema.org/Restaurant">
 				<img alt="locales de noe sushi bar " class="mt-5 m-sm-0" src="media/img/locales.png"/>
 				<h5 class="text-light mt-5 px-3 text-center">solicita nuestro servicio de delivery <br>llevaremos tus sabores favoritos hacia tí</h5>
 				<img alt="sushi a domicilio" class="mt-5" src="media/img/delivery.png"/>
-				<p class="text-light px-3 text-center">Disponible en Quito y Guayaquil</p>
-				<p class="text-light px-3 mt-4 text-center h5">En Cuenca llama al 2889308</p>
+				<p class="text-light px-3 text-center" itemprop="addressRegion">Disponible en Quito y Guayaquil</p>
+				<p class="text-light px-3 mt-4 text-center h5" itemprop="telephone">En Cuenca llama al 2889308</p>
 			</div>
 			<!--END RIGHT-->
 		</div>
