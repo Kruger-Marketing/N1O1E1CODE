@@ -44,6 +44,16 @@ include('content/menu/menu.php');
 		fMainJs();
 		fMenuCarta();
 		fSEO();
+	
+	//MENU CATEGORIAS POR URL
+	$categoriaURL=$_GET["categoria"];
+	if($categoriaURL){
+		?> 
+		<script type="text/javascript">
+		showCarta('<?php echo $categoriaURL; ?>');
+		</script>
+		<?php
+		}	
 	?>
 </body>
 </html>
