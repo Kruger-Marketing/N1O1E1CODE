@@ -7,6 +7,7 @@ function hCabeza(){
 	global $url;
 	?>
 	<meta charset="utf-8">
+	<link rel="alternate" hreflang="es-EC" href="http://noesushibar.com/es/" />
     <title><?= $nameCompany; ?></title>
     <meta name="description" content="<?= $descripCompany; ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,6 +39,13 @@ function hFavicon(){
     <meta name="msapplication-TileImage" content="media/img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <meta name="google-site-verification" content="5lDaikxJ2zLCAoUfQP0--AIA0S45Gusz0ggAGQTKdjk" />
+
+    <meta property="og:image" content="http://noesushibar.com/media/img/menu/menu.jpg" />
+	<meta property="og:image:secure_url" content="http://noesushibar.com/media/img/menu/menu.jpg" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta property="og:image:width" content="400" />
+	<meta property="og:image:height" content="300" />
+	<meta property="og:image:alt" content="El mejor sushi de Ecuador" />
     <?php
 }
 function hBootstrap(){
