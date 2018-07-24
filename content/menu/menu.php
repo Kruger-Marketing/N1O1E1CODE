@@ -348,7 +348,7 @@ function intro(){
 					<?php 
 					 for ($x = 1; $x <= 18; $x++) {
 					?>
-					<a onClick="showCarta('<?php echo $GLOBALS['cartaClase'][$x.'-link']; ?>')"><li class="text-light text-right pr-3"><?php echo $GLOBALS['cartaClase'][$x]; ?></i></li></a>
+					<a href="<?php echo $GLOBALS['url']."es/menu/".$GLOBALS['cartaClase'][$x.'-link'];?>"><li class="text-light text-right pr-3"><?php echo $GLOBALS['cartaClase'][$x]; ?></i></li></a>
 					<?php
 					 }
 					 ?>
