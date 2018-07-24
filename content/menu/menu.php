@@ -342,7 +342,7 @@ function intro(){
 		}
 		?>
 		<div id="cartaArrows" class="arrows position-fixed d-flex justify-content-center align-items-center p-0">
-			<i class="fas h1 text-light"></i>
+			<i class="fas h1 text-light fa-plus-circle"></i>
 			<div id="cartaMenu" class="categoriasMenu position-fixed justify-content-center align-items-center fadeIn animated col-12 col-sm-3">
 				<ul class="list-group">
 					<?php 
